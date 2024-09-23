@@ -21,27 +21,30 @@ body {
 
 .name {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size:1.3rem;
     color:azure;
     text-align: center;
 }
 
 .place {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 78%;
     color:#C7EA46;
     text-align: center;
+    line-height: 1.9rem;
 }
 
 .designation {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 80%;
     text-align: center;
     color: azure;
+    margin-bottom:5%;
 }
 
 .btn-media {
     background-color: #272927;
+    border-radius: 20rem;
 }
 
 @media (min-width: 576px) {
@@ -50,6 +53,11 @@ body {
         width: 80%;
         max-width:37.5rem;
         border-radius: 10rem;
+    }
+
+    .dp {
+        width: 2rem;
+        margin: auto;
     }
 
 }
