@@ -1,0 +1,87 @@
+body {
+    background: #010203 !important;
+}
+
+.media-card {
+    background-color: #272927 !important;
+    width: auto;
+    border-radius: 5rem;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.dp {
+    width: 3rem;
+    margin: auto;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    color: azure;
+    text-align: center;
+}
+
+.place {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78%;
+    color: #c7ea46;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.designation {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    text-align: center;
+    color: azure;
+    margin-bottom: 5%;
+}
+
+.btn-media {
+    background-color: #272927;
+    border-radius: 20rem;
+}
+
+@media (min-width: 576px) {
+    .media-card {
+        background-color: #272927 !important;
+        width: 80%;
+        max-width: 37.5rem;
+        border-radius: 10rem;
+    }
+
+    .dp {
+        width: 4rem;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .media-card {
+        background-color: #272927 !important;
+        width: 20rem;
+        border-radius: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .media-card {
+        background-color: #272927 !important;
+        width: 30rem;
+        border-radius: 5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .media-card {
+        background-color: #272927 !important;
+        width: 20rem;
+        border-radius: 5rem;
+    }
+}
