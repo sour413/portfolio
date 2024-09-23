@@ -50,11 +50,6 @@ body {
         max-width: 37.5rem;
         border-radius: 10rem;
     }
-
-    .dp {
-        width: 5rem;
-        margin: auto;
-    }
 }
 
 @media (min-width: 768px) {
