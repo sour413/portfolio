@@ -15,23 +15,24 @@ body {
 }
 
 .dp {
-   width: 4rem;
-   margin: auto;
+    width: 3rem;
+    margin: auto;
 }
 
 .name {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:1.3rem;
-    color:azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    color: azure;
     text-align: center;
 }
 
 .place {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 78%;
-    color:#C7EA46;
+    color: #c7ea46;
     text-align: center;
-    line-height: 1.9rem;
+    line-height: 2rem;
 }
 
 .designation {
@@ -39,7 +40,7 @@ body {
     font-size: 80%;
     text-align: center;
     color: azure;
-    margin-bottom:5%;
+    margin-bottom: 5%;
 }
 
 .btn-media {
@@ -51,18 +52,17 @@ body {
     .media-card {
         background-color: #272927 !important;
         width: 80%;
-        max-width:37.5rem;
+        max-width: 37.5rem;
         border-radius: 10rem;
     }
 
     .dp {
-        width: 2rem;
+        width: 4rem;
         margin: auto;
     }
-
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .media-card {
         background-color: #272927 !important;
         width: 20rem;
@@ -70,15 +70,15 @@ body {
     }
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .media-card {
         background-color: #272927 !important;
         width: 30rem;
         border-radius: 5rem;
     }
- }
+}
 
-@media (min-width: 1400px) { 
+@media (min-width: 1400px) {
     .media-card {
         background-color: #272927 !important;
         width: 20rem;
